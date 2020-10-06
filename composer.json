@@ -1,5 +1,5 @@
 {
-    "name": "snc/redis-bundle",
+    "name": "paysera/fork-snc-snc-redis-bundle",
     "type": "symfony-bundle",
     "description": "A Redis bundle for Symfony",
     "keywords": ["redis", "nosql", "symfony"],
@@ -40,5 +40,8 @@
         "branch-alias": {
             "dev-master": "2.x-dev"
         }
+    },
+    "replace": {
+        "snc/SncRedisBundle": "2.1.*"
     }
 }
